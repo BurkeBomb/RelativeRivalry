@@ -1,327 +1,322 @@
-diff --git a//dev/null b/data/questions.json
-index 0000000000000000000000000000000000000000..e504d5a16e7f29d1a33a6e483a2413f4c9b8698c 100644
---- a//dev/null
-+++ b/data/questions.json
-@@ -0,0 +1,322 @@
-+[
-+  {
-+    "id": "q1",
-+    "category": "General Knowledge",
-+    "prompt": "What is the capital city of Canada?",
-+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-+    "answer": "Ottawa",
-+    "hint": "It sits on the banks of the Rideau Canal."
-+  },
-+  {
-+    "id": "q2",
-+    "category": "Science",
-+    "prompt": "What gas do plants absorb from the atmosphere during photosynthesis?",
-+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-+    "answer": "Carbon Dioxide",
-+    "hint": "It's the same gas humans exhale."
-+  },
-+  {
-+    "id": "q3",
-+    "category": "History",
-+    "prompt": "Who was the first President of the United States?",
-+    "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
-+    "answer": "George Washington",
-+    "hint": "He appears on the one-dollar bill."
-+  },
-+  {
-+    "id": "q4",
-+    "category": "Entertainment",
-+    "prompt": "Which movie features the quote, \"May the Force be with you\"?",
-+    "options": ["Star Trek", "Star Wars", "The Matrix", "Guardians of the Galaxy"],
-+    "answer": "Star Wars",
-+    "hint": "Lightsabers are a big clue."
-+  },
-+  {
-+    "id": "q5",
-+    "category": "Sports",
-+    "prompt": "In basketball, how many points is a free throw worth?",
-+    "options": ["1", "2", "3", "4"],
-+    "answer": "1",
-+    "hint": "It's the lowest scoring shot."
-+  },
-+  {
-+    "id": "q6",
-+    "category": "Geography",
-+    "prompt": "Which continent is home to the Sahara Desert?",
-+    "options": ["Asia", "Africa", "Australia", "South America"],
-+    "answer": "Africa",
-+    "hint": "It's the same continent as the Nile River."
-+  },
-+  {
-+    "id": "q7",
-+    "category": "Pop Culture",
-+    "prompt": "Which singer is known as the \"Queen of Pop\"?",
-+    "options": ["Beyoncé", "Madonna", "Taylor Swift", "Adele"],
-+    "answer": "Madonna",
-+    "hint": "Her hit songs include \"Like a Virgin.\""
-+  },
-+  {
-+    "id": "q8",
-+    "category": "Family Trivia",
-+    "prompt": "Which board game challenges players to guess words based on teammate clues?",
-+    "options": ["Monopoly", "Pictionary", "Checkers", "Clue"],
-+    "answer": "Pictionary",
-+    "hint": "You'll want a marker for this game."
-+  },
-+  {
-+    "id": "q9",
-+    "category": "Science",
-+    "prompt": "What planet is known as the Red Planet?",
-+    "options": ["Mars", "Jupiter", "Saturn", "Venus"],
-+    "answer": "Mars",
-+    "hint": "It is home to the tallest volcano in the solar system."
-+  },
-+  {
-+    "id": "q10",
-+    "category": "General Knowledge",
-+    "prompt": "How many continents are there on Earth?",
-+    "options": ["5", "6", "7", "8"],
-+    "answer": "7",
-+    "hint": "Count them with the mnemonic SAFEAAE."
-+  },
-+  {
-+    "id": "q11",
-+    "category": "History",
-+    "prompt": "In which year did the Titanic sink?",
-+    "options": ["1905", "1912", "1920", "1931"],
-+    "answer": "1912",
-+    "hint": "It struck an iceberg in April of this year."
-+  },
-+  {
-+    "id": "q12",
-+    "category": "Math",
-+    "prompt": "What is 12 multiplied by 8?",
-+    "options": ["80", "88", "96", "108"],
-+    "answer": "96",
-+    "hint": "10 times 8 is 80, add twice more 8."
-+  },
-+  {
-+    "id": "q13",
-+    "category": "Science",
-+    "prompt": "What part of the cell contains genetic material?",
-+    "options": ["Cytoplasm", "Mitochondria", "Nucleus", "Ribosome"],
-+    "answer": "Nucleus",
-+    "hint": "It's the control center of the cell."
-+  },
-+  {
-+    "id": "q14",
-+    "category": "Literature",
-+    "prompt": "Who wrote \"Charlie and the Chocolate Factory\"?",
-+    "options": ["Roald Dahl", "J.K. Rowling", "Dr. Seuss", "C.S. Lewis"],
-+    "answer": "Roald Dahl",
-+    "hint": "He also created Matilda and the BFG."
-+  },
-+  {
-+    "id": "q15",
-+    "category": "Technology",
-+    "prompt": "What does \"www\" stand for in a web address?",
-+    "options": ["World Web Window", "Wide World Web", "World Wide Web", "Web World Wide"],
-+    "answer": "World Wide Web",
-+    "hint": "It's the global information system you use every day."
-+  },
-+  {
-+    "id": "q16",
-+    "category": "Entertainment",
-+    "prompt": "Which superhero is also known as the Caped Crusader?",
-+    "options": ["Superman", "Batman", "Spider-Man", "Iron Man"],
-+    "answer": "Batman",
-+    "hint": "He protects Gotham City."
-+  },
-+  {
-+    "id": "q17",
-+    "category": "Food",
-+    "prompt": "What is the main ingredient in guacamole?",
-+    "options": ["Tomato", "Avocado", "Cucumber", "Pepper"],
-+    "answer": "Avocado",
-+    "hint": "It's a creamy green fruit."
-+  },
-+  {
-+    "id": "q18",
-+    "category": "Sports",
-+    "prompt": "In soccer, what is awarded after a foul in the penalty area?",
-+    "options": ["Corner kick", "Goal kick", "Penalty kick", "Throw-in"],
-+    "answer": "Penalty kick",
-+    "hint": "It's just one player versus the goalkeeper."
-+  },
-+  {
-+    "id": "q19",
-+    "category": "Geography",
-+    "prompt": "Which river runs through the Grand Canyon?",
-+    "options": ["Colorado River", "Mississippi River", "Amazon River", "Columbia River"],
-+    "answer": "Colorado River",
-+    "hint": "It carved the canyon over millions of years."
-+  },
-+  {
-+    "id": "q20",
-+    "category": "General Knowledge",
-+    "prompt": "Which holiday is celebrated on July 4th in the United States?",
-+    "options": ["Labor Day", "Independence Day", "Memorial Day", "Veterans Day"],
-+    "answer": "Independence Day",
-+    "hint": "Fireworks light up the sky on this day."
-+  },
-+  {
-+    "id": "q21",
-+    "category": "Science",
-+    "prompt": "What force keeps us grounded on Earth?",
-+    "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
-+    "answer": "Gravity",
-+    "hint": "Sir Isaac Newton studied it with an apple."
-+  },
-+  {
-+    "id": "q22",
-+    "category": "Math",
-+    "prompt": "What is the square root of 81?",
-+    "options": ["7", "8", "9", "10"],
-+    "answer": "9",
-+    "hint": "It's 3 multiplied by itself three times."
-+  },
-+  {
-+    "id": "q23",
-+    "category": "Entertainment",
-+    "prompt": "Which animated movie features the song \"Let It Go\"?",
-+    "options": ["Moana", "Frozen", "Tangled", "Coco"],
-+    "answer": "Frozen",
-+    "hint": "It stars sisters Anna and Elsa."
-+  },
-+  {
-+    "id": "q24",
-+    "category": "History",
-+    "prompt": "Who was known as the Maid of Orléans?",
-+    "options": ["Joan of Arc", "Marie Curie", "Queen Elizabeth I", "Catherine the Great"],
-+    "answer": "Joan of Arc",
-+    "hint": "She was a heroine of France during the Hundred Years' War."
-+  },
-+  {
-+    "id": "q25",
-+    "category": "Technology",
-+    "prompt": "Which company developed the iPhone?",
-+    "options": ["Google", "Microsoft", "Apple", "Samsung"],
-+    "answer": "Apple",
-+    "hint": "Their logo is a bitten fruit."
-+  },
-+  {
-+    "id": "q26",
-+    "category": "Food",
-+    "prompt": "What spice is commonly paired with apples in pies?",
-+    "options": ["Cumin", "Cinnamon", "Basil", "Paprika"],
-+    "answer": "Cinnamon",
-+    "hint": "It's a warm, fragrant bark."
-+  },
-+  {
-+    "id": "q27",
-+    "category": "Geography",
-+    "prompt": "Which country is both in Europe and Asia?",
-+    "options": ["Spain", "Turkey", "Morocco", "Egypt"],
-+    "answer": "Turkey",
-+    "hint": "Istanbul spans two continents."
-+  },
-+  {
-+    "id": "q28",
-+    "category": "General Knowledge",
-+    "prompt": "How many letters are in the English alphabet?",
-+    "options": ["24", "25", "26", "27"],
-+    "answer": "26",
-+    "hint": "It starts with A and ends with Z."
-+  },
-+  {
-+    "id": "q29",
-+    "category": "Science",
-+    "prompt": "What is H2O more commonly known as?",
-+    "options": ["Hydrogen Peroxide", "Water", "Salt", "Oxygen"],
-+    "answer": "Water",
-+    "hint": "You drink it every day."
-+  },
-+  {
-+    "id": "q30",
-+    "category": "Sports",
-+    "prompt": "How many players are on the field for one soccer team during play?",
-+    "options": ["9", "10", "11", "12"],
-+    "answer": "11",
-+    "hint": "It includes the goalkeeper."
-+  },
-+  {
-+    "id": "q31",
-+    "category": "Family Trivia",
-+    "prompt": "Which activity is often done together at family reunions?",
-+    "options": ["Silent reading", "Family photo", "Skydiving", "Solo puzzles"],
-+    "answer": "Family photo",
-+    "hint": "Everyone says cheese."
-+  },
-+  {
-+    "id": "q32",
-+    "category": "History",
-+    "prompt": "Which ancient civilization built the pyramids of Giza?",
-+    "options": ["Mayans", "Egyptians", "Romans", "Greeks"],
-+    "answer": "Egyptians",
-+    "hint": "They wrote with hieroglyphs."
-+  },
-+  {
-+    "id": "q33",
-+    "category": "Entertainment",
-+    "prompt": "Which video game features the characters Mario and Luigi?",
-+    "options": ["Sonic the Hedgehog", "Super Mario Bros.", "Minecraft", "Pac-Man"],
-+    "answer": "Super Mario Bros.",
-+    "hint": "They are plumbers from the Mushroom Kingdom."
-+  },
-+  {
-+    "id": "q34",
-+    "category": "General Knowledge",
-+    "prompt": "Which instrument has keys, pedals, and strings?",
-+    "options": ["Violin", "Piano", "Flute", "Drum"],
-+    "answer": "Piano",
-+    "hint": "You play it with both hands."
-+  },
-+  {
-+    "id": "q35",
-+    "category": "Science",
-+    "prompt": "Which part of the human body pumps blood?",
-+    "options": ["Lungs", "Heart", "Brain", "Liver"],
-+    "answer": "Heart",
-+    "hint": "It beats faster when you exercise."
-+  },
-+  {
-+    "id": "q36",
-+    "category": "Technology",
-+    "prompt": "What does USB stand for?",
-+    "options": ["Universal Serial Bus", "United Service Board", "Universal Signal Band", "User System Base"],
-+    "answer": "Universal Serial Bus",
-+    "hint": "It's the common connector for many devices."
-+  },
-+  {
-+    "id": "q37",
-+    "category": "Math",
-+    "prompt": "What is the value of pi rounded to two decimal places?",
-+    "options": ["3.12", "3.14", "3.16", "3.18"],
-+    "answer": "3.14",
-+    "hint": "It's the ratio of a circle's circumference to its diameter."
-+  },
-+  {
-+    "id": "q38",
-+    "category": "Geography",
-+    "prompt": "Which ocean is the largest on Earth?",
-+    "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
-+    "answer": "Pacific Ocean",
-+    "hint": "It covers more than 30% of the Earth's surface."
-+  },
-+  {
-+    "id": "q39",
-+    "category": "Entertainment",
-+    "prompt": "Which TV show popularized the catchphrase \"How you doin'?\"?",
-+    "options": ["Seinfeld", "Friends", "The Office", "Parks and Recreation"],
-+    "answer": "Friends",
-+    "hint": "Joey Tribbiani says it."
-+  },
-+  {
-+    "id": "q40",
-+    "category": "Family Trivia",
-+    "prompt": "Which holiday tradition often involves decorating a tree?",
-+    "options": ["Halloween", "Thanksgiving", "Christmas", "Easter"],
-+    "answer": "Christmas",
-+    "hint": "Ornaments and twinkling lights abound."
-+  }
-+]
+[
+  {
+    "id": "q1",
+    "category": "General Knowledge",
+    "prompt": "What is the capital city of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa",
+    "hint": "It sits on the banks of the Rideau Canal."
+  },
+  {
+    "id": "q2",
+    "category": "Science",
+    "prompt": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Carbon Dioxide",
+    "hint": "It's the same gas humans exhale."
+  },
+  {
+    "id": "q3",
+    "category": "History",
+    "prompt": "Who was the first President of the United States?",
+    "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
+    "answer": "George Washington",
+    "hint": "He appears on the one-dollar bill."
+  },
+  {
+    "id": "q4",
+    "category": "Entertainment",
+    "prompt": "Which movie features the quote, \"May the Force be with you\"?",
+    "options": ["Star Trek", "Star Wars", "The Matrix", "Guardians of the Galaxy"],
+    "answer": "Star Wars",
+    "hint": "Lightsabers are a big clue."
+  },
+  {
+    "id": "q5",
+    "category": "Sports",
+    "prompt": "In basketball, how many points is a free throw worth?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1",
+    "hint": "It's the lowest scoring shot."
+  },
+  {
+    "id": "q6",
+    "category": "Geography",
+    "prompt": "Which continent is home to the Sahara Desert?",
+    "options": ["Asia", "Africa", "Australia", "South America"],
+    "answer": "Africa",
+    "hint": "It's the same continent as the Nile River."
+  },
+  {
+    "id": "q7",
+    "category": "Pop Culture",
+    "prompt": "Which singer is known as the \"Queen of Pop\"?",
+    "options": ["Beyoncé", "Madonna", "Taylor Swift", "Adele"],
+    "answer": "Madonna",
+    "hint": "Her hit songs include \"Like a Virgin.\""
+  },
+  {
+    "id": "q8",
+    "category": "Family Trivia",
+    "prompt": "Which board game challenges players to guess words based on teammate clues?",
+    "options": ["Monopoly", "Pictionary", "Checkers", "Clue"],
+    "answer": "Pictionary",
+    "hint": "You'll want a marker for this game."
+  },
+  {
+    "id": "q9",
+    "category": "Science",
+    "prompt": "What planet is known as the Red Planet?",
+    "options": ["Mars", "Jupiter", "Saturn", "Venus"],
+    "answer": "Mars",
+    "hint": "It is home to the tallest volcano in the solar system."
+  },
+  {
+    "id": "q10",
+    "category": "General Knowledge",
+    "prompt": "How many continents are there on Earth?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7",
+    "hint": "Count them with the mnemonic SAFEAAE."
+  },
+  {
+    "id": "q11",
+    "category": "History",
+    "prompt": "In which year did the Titanic sink?",
+    "options": ["1905", "1912", "1920", "1931"],
+    "answer": "1912",
+    "hint": "It struck an iceberg in April of this year."
+  },
+  {
+    "id": "q12",
+    "category": "Math",
+    "prompt": "What is 12 multiplied by 8?",
+    "options": ["80", "88", "96", "108"],
+    "answer": "96",
+    "hint": "10 times 8 is 80, add twice more 8."
+  },
+  {
+    "id": "q13",
+    "category": "Science",
+    "prompt": "What part of the cell contains genetic material?",
+    "options": ["Cytoplasm", "Mitochondria", "Nucleus", "Ribosome"],
+    "answer": "Nucleus",
+    "hint": "It's the control center of the cell."
+  },
+  {
+    "id": "q14",
+    "category": "Literature",
+    "prompt": "Who wrote \"Charlie and the Chocolate Factory\"?",
+    "options": ["Roald Dahl", "J.K. Rowling", "Dr. Seuss", "C.S. Lewis"],
+    "answer": "Roald Dahl",
+    "hint": "He also created Matilda and the BFG."
+  },
+  {
+    "id": "q15",
+    "category": "Technology",
+    "prompt": "What does \"www\" stand for in a web address?",
+    "options": ["World Web Window", "Wide World Web", "World Wide Web", "Web World Wide"],
+    "answer": "World Wide Web",
+    "hint": "It's the global information system you use every day."
+  },
+  {
+    "id": "q16",
+    "category": "Entertainment",
+    "prompt": "Which superhero is also known as the Caped Crusader?",
+    "options": ["Superman", "Batman", "Spider-Man", "Iron Man"],
+    "answer": "Batman",
+    "hint": "He protects Gotham City."
+  },
+  {
+    "id": "q17",
+    "category": "Food",
+    "prompt": "What is the main ingredient in guacamole?",
+    "options": ["Tomato", "Avocado", "Cucumber", "Pepper"],
+    "answer": "Avocado",
+    "hint": "It's a creamy green fruit."
+  },
+  {
+    "id": "q18",
+    "category": "Sports",
+    "prompt": "In soccer, what is awarded after a foul in the penalty area?",
+    "options": ["Corner kick", "Goal kick", "Penalty kick", "Throw-in"],
+    "answer": "Penalty kick",
+    "hint": "It's just one player versus the goalkeeper."
+  },
+  {
+    "id": "q19",
+    "category": "Geography",
+    "prompt": "Which river runs through the Grand Canyon?",
+    "options": ["Colorado River", "Mississippi River", "Amazon River", "Columbia River"],
+    "answer": "Colorado River",
+    "hint": "It carved the canyon over millions of years."
+  },
+  {
+    "id": "q20",
+    "category": "General Knowledge",
+    "prompt": "Which holiday is celebrated on July 4th in the United States?",
+    "options": ["Labor Day", "Independence Day", "Memorial Day", "Veterans Day"],
+    "answer": "Independence Day",
+    "hint": "Fireworks light up the sky on this day."
+  },
+  {
+    "id": "q21",
+    "category": "Science",
+    "prompt": "What force keeps us grounded on Earth?",
+    "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
+    "answer": "Gravity",
+    "hint": "Sir Isaac Newton studied it with an apple."
+  },
+  {
+    "id": "q22",
+    "category": "Math",
+    "prompt": "What is the square root of 81?",
+    "options": ["7", "8", "9", "10"],
+    "answer": "9",
+    "hint": "It's 3 multiplied by itself three times."
+  },
+  {
+    "id": "q23",
+    "category": "Entertainment",
+    "prompt": "Which animated movie features the song \"Let It Go\"?",
+    "options": ["Moana", "Frozen", "Tangled", "Coco"],
+    "answer": "Frozen",
+    "hint": "It stars sisters Anna and Elsa."
+  },
+  {
+    "id": "q24",
+    "category": "History",
+    "prompt": "Who was known as the Maid of Orléans?",
+    "options": ["Joan of Arc", "Marie Curie", "Queen Elizabeth I", "Catherine the Great"],
+    "answer": "Joan of Arc",
+    "hint": "She was a heroine of France during the Hundred Years' War."
+  },
+  {
+    "id": "q25",
+    "category": "Technology",
+    "prompt": "Which company developed the iPhone?",
+    "options": ["Google", "Microsoft", "Apple", "Samsung"],
+    "answer": "Apple",
+    "hint": "Their logo is a bitten fruit."
+  },
+  {
+    "id": "q26",
+    "category": "Food",
+    "prompt": "What spice is commonly paired with apples in pies?",
+    "options": ["Cumin", "Cinnamon", "Basil", "Paprika"],
+    "answer": "Cinnamon",
+    "hint": "It's a warm, fragrant bark."
+  },
+  {
+    "id": "q27",
+    "category": "Geography",
+    "prompt": "Which country is both in Europe and Asia?",
+    "options": ["Spain", "Turkey", "Morocco", "Egypt"],
+    "answer": "Turkey",
+    "hint": "Istanbul spans two continents."
+  },
+  {
+    "id": "q28",
+    "category": "General Knowledge",
+    "prompt": "How many letters are in the English alphabet?",
+    "options": ["24", "25", "26", "27"],
+    "answer": "26",
+    "hint": "It starts with A and ends with Z."
+  },
+  {
+    "id": "q29",
+    "category": "Science",
+    "prompt": "What is H2O more commonly known as?",
+    "options": ["Hydrogen Peroxide", "Water", "Salt", "Oxygen"],
+    "answer": "Water",
+    "hint": "You drink it every day."
+  },
+  {
+    "id": "q30",
+    "category": "Sports",
+    "prompt": "How many players are on the field for one soccer team during play?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11",
+    "hint": "It includes the goalkeeper."
+  },
+  {
+    "id": "q31",
+    "category": "Family Trivia",
+    "prompt": "Which activity is often done together at family reunions?",
+    "options": ["Silent reading", "Family photo", "Skydiving", "Solo puzzles"],
+    "answer": "Family photo",
+    "hint": "Everyone says cheese."
+  },
+  {
+    "id": "q32",
+    "category": "History",
+    "prompt": "Which ancient civilization built the pyramids of Giza?",
+    "options": ["Mayans", "Egyptians", "Romans", "Greeks"],
+    "answer": "Egyptians",
+    "hint": "They wrote with hieroglyphs."
+  },
+  {
+    "id": "q33",
+    "category": "Entertainment",
+    "prompt": "Which video game features the characters Mario and Luigi?",
+    "options": ["Sonic the Hedgehog", "Super Mario Bros.", "Minecraft", "Pac-Man"],
+    "answer": "Super Mario Bros.",
+    "hint": "They are plumbers from the Mushroom Kingdom."
+  },
+  {
+    "id": "q34",
+    "category": "General Knowledge",
+    "prompt": "Which instrument has keys, pedals, and strings?",
+    "options": ["Violin", "Piano", "Flute", "Drum"],
+    "answer": "Piano",
+    "hint": "You play it with both hands."
+  },
+  {
+    "id": "q35",
+    "category": "Science",
+    "prompt": "Which part of the human body pumps blood?",
+    "options": ["Lungs", "Heart", "Brain", "Liver"],
+    "answer": "Heart",
+    "hint": "It beats faster when you exercise."
+  },
+  {
+    "id": "q36",
+    "category": "Technology",
+    "prompt": "What does USB stand for?",
+    "options": ["Universal Serial Bus", "United Service Board", "Universal Signal Band", "User System Base"],
+    "answer": "Universal Serial Bus",
+    "hint": "It's the common connector for many devices."
+  },
+  {
+    "id": "q37",
+    "category": "Math",
+    "prompt": "What is the value of pi rounded to two decimal places?",
+    "options": ["3.12", "3.14", "3.16", "3.18"],
+    "answer": "3.14",
+    "hint": "It's the ratio of a circle's circumference to its diameter."
+  },
+  {
+    "id": "q38",
+    "category": "Geography",
+    "prompt": "Which ocean is the largest on Earth?",
+    "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean",
+    "hint": "It covers more than 30% of the Earth's surface."
+  },
+  {
+    "id": "q39",
+    "category": "Entertainment",
+    "prompt": "Which TV show popularized the catchphrase \"How you doin'?\"?",
+    "options": ["Seinfeld", "Friends", "The Office", "Parks and Recreation"],
+    "answer": "Friends",
+    "hint": "Joey Tribbiani says it."
+  },
+  {
+    "id": "q40",
+    "category": "Family Trivia",
+    "prompt": "Which holiday tradition often involves decorating a tree?",
+    "options": ["Halloween", "Thanksgiving", "Christmas", "Easter"],
+    "answer": "Christmas",
+    "hint": "Ornaments and twinkling lights abound."
+  }
+]

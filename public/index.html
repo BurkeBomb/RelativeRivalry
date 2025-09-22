@@ -1,137 +1,132 @@
-diff --git a//dev/null b/public/index.html
-index 0000000000000000000000000000000000000000..66573a6a21bbaec88607bdd0174b92928dc38270 100644
---- a//dev/null
-+++ b/public/index.html
-@@ -0,0 +1,132 @@
-+<!DOCTYPE html>
-+<html lang="en">
-+  <head>
-+    <meta charset="UTF-8" />
-+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-+    <title>Relative Rivalry</title>
-+    <link rel="stylesheet" href="style.css" />
-+    <link rel="preconnect" href="https://fonts.googleapis.com" />
-+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-+    <link
-+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Roboto:wght@300;400;700&display=swap"
-+      rel="stylesheet"
-+    />
-+  </head>
-+  <body>
-+    <div class="app-shell">
-+      <header class="app-header">
-+        <div class="logo-badge">
-+          <span class="logo-text">Relative Rivalry</span>
-+          <span class="logo-tag">Daily Family Face-Off</span>
-+        </div>
-+        <div class="deadline-display">
-+          <span class="deadline-label">Submissions Lock:</span>
-+          <span id="deadlineText" class="deadline-time">--:--</span>
-+        </div>
-+      </header>
-+
-+      <main class="content-grid">
-+        <section class="game-panel">
-+          <div class="status-bar">
-+            <div class="timer-wrapper">
-+              <span class="label">Countdown</span>
-+              <div id="timerDisplay" class="timer-display">05:00</div>
-+            </div>
-+            <div class="progress-wrapper">
-+              <span class="label">Question</span>
-+              <div class="progress-bar">
-+                <div id="progressFill" class="progress-fill"></div>
-+              </div>
-+              <span id="questionCounter" class="progress-count">0 / 0</span>
-+            </div>
-+          </div>
-+
-+          <div id="lockedMessage" class="locked-message" hidden>
-+            <h2>The daily showdown is closed!</h2>
-+            <p>Scores are sealed for the day. Rally the family and return tomorrow at midnight.</p>
-+          </div>
-+
-+          <div id="gameplay" class="gameplay" hidden>
-+            <article class="question-card">
-+              <header>
-+                <span id="questionCategory" class="question-category">Category</span>
-+                <h2 id="questionPrompt" class="question-prompt">Question text</h2>
-+              </header>
-+              <ul id="optionsList" class="options-list"></ul>
-+            </article>
-+
-+            <div class="lifeline-panel">
-+              <h3>Lifelines</h3>
-+              <div id="lifelineButtons" class="lifeline-buttons"></div>
-+            </div>
-+
-+            <div class="controls-row">
-+              <button id="skipButton" class="secondary">Skip Question</button>
-+              <button id="submitButton" class="primary" disabled>Submit Answers</button>
-+            </div>
-+
-+            <div id="hintBanner" class="hint-banner" hidden>
-+              <span class="hint-label">Hint:</span>
-+              <span id="hintText"></span>
-+            </div>
-+          </div>
-+
-+          <div id="summary" class="summary" hidden>
-+            <h2>Great race!</h2>
-+            <p class="summary-score">Your unofficial score: <span id="summaryScore">0</span></p>
-+            <div class="summary-stats">
-+              <div class="stat">
-+                <span class="stat-label">Correct</span>
-+                <span id="summaryCorrect" class="stat-value">0 / 0</span>
-+              </div>
-+              <div class="stat">
-+                <span class="stat-label">Time Used</span>
-+                <span id="summaryTime" class="stat-value">00:00</span>
-+              </div>
-+              <div class="stat">
-+                <span class="stat-label">Lifelines</span>
-+                <span id="summaryLifelines" class="stat-value">0</span>
-+              </div>
-+            </div>
-+            <form id="submissionForm" class="submission-form">
-+              <label class="field">
-+                <span>Player Name</span>
-+                <input id="playerName" name="playerName" maxlength="32" required placeholder="Family nickname" />
-+              </label>
-+              <label class="field">
-+                <span>Sabotage a Rival</span>
-+                <select id="sabotageTarget" name="sabotageTarget">
-+                  <option value="">Save it for later...</option>
-+                </select>
-+                <small>Spend your sabotage to dock an opponent <strong>120 points</strong>.</small>
-+              </label>
-+              <button class="primary" type="submit">Lock In Score</button>
-+            </form>
-+            <p id="formMessage" class="form-message" hidden></p>
-+            <p class="summary-note">Once you submit, your score is frozen for today. Choose wisely!</p>
-+          </div>
-+        </section>
-+
-+        <aside class="leaderboard-panel">
-+          <div class="leaderboard-header">
-+            <h2>Leaderboard</h2>
-+            <button id="refreshLeaderboard" class="refresh-button" title="Refresh leaderboard">↻</button>
-+          </div>
-+          <ul id="leaderboard" class="leaderboard"></ul>
-+          <div class="legend">
-+            <p><strong>Sabotage Penalty</strong> shows the points deducted by sneaky rivals.</p>
-+            <p>Adjusted score breaks all ties before the nightly reset at 8 PM.</p>
-+          </div>
-+        </aside>
-+      </main>
-+
-+      <footer class="app-footer">
-+        <p>
-+          Built for family bragging rights. Share the link, set a reminder, and see who owns the crown at 8 PM sharp.
-+        </p>
-+      </footer>
-+    </div>
-+
-+    <script type="module" src="app.js"></script>
-+  </body>
-+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Rivalry</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="logo-badge">
+          <span class="logo-text">Relative Rivalry</span>
+          <span class="logo-tag">Daily Family Face-Off</span>
+        </div>
+        <div class="deadline-display">
+          <span class="deadline-label">Submissions Lock:</span>
+          <span id="deadlineText" class="deadline-time">--:--</span>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="game-panel">
+          <div class="status-bar">
+            <div class="timer-wrapper">
+              <span class="label">Countdown</span>
+              <div id="timerDisplay" class="timer-display">05:00</div>
+            </div>
+            <div class="progress-wrapper">
+              <span class="label">Question</span>
+              <div class="progress-bar">
+                <div id="progressFill" class="progress-fill"></div>
+              </div>
+              <span id="questionCounter" class="progress-count">0 / 0</span>
+            </div>
+          </div>
+
+          <div id="lockedMessage" class="locked-message" hidden>
+            <h2>The daily showdown is closed!</h2>
+            <p>Scores are sealed for the day. Rally the family and return tomorrow at midnight.</p>
+          </div>
+
+          <div id="gameplay" class="gameplay" hidden>
+            <article class="question-card">
+              <header>
+                <span id="questionCategory" class="question-category">Category</span>
+                <h2 id="questionPrompt" class="question-prompt">Question text</h2>
+              </header>
+              <ul id="optionsList" class="options-list"></ul>
+            </article>
+
+            <div class="lifeline-panel">
+              <h3>Lifelines</h3>
+              <div id="lifelineButtons" class="lifeline-buttons"></div>
+            </div>
+
+            <div class="controls-row">
+              <button id="skipButton" class="secondary">Skip Question</button>
+              <button id="submitButton" class="primary" disabled>Submit Answers</button>
+            </div>
+
+            <div id="hintBanner" class="hint-banner" hidden>
+              <span class="hint-label">Hint:</span>
+              <span id="hintText"></span>
+            </div>
+          </div>
+
+          <div id="summary" class="summary" hidden>
+            <h2>Great race!</h2>
+            <p class="summary-score">Your unofficial score: <span id="summaryScore">0</span></p>
+            <div class="summary-stats">
+              <div class="stat">
+                <span class="stat-label">Correct</span>
+                <span id="summaryCorrect" class="stat-value">0 / 0</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Time Used</span>
+                <span id="summaryTime" class="stat-value">00:00</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Lifelines</span>
+                <span id="summaryLifelines" class="stat-value">0</span>
+              </div>
+            </div>
+            <form id="submissionForm" class="submission-form">
+              <label class="field">
+                <span>Player Name</span>
+                <input id="playerName" name="playerName" maxlength="32" required placeholder="Family nickname" />
+              </label>
+              <label class="field">
+                <span>Sabotage a Rival</span>
+                <select id="sabotageTarget" name="sabotageTarget">
+                  <option value="">Save it for later...</option>
+                </select>
+                <small>Spend your sabotage to dock an opponent <strong>120 points</strong>.</small>
+              </label>
+              <button class="primary" type="submit">Lock In Score</button>
+            </form>
+            <p id="formMessage" class="form-message" hidden></p>
+            <p class="summary-note">Once you submit, your score is frozen for today. Choose wisely!</p>
+          </div>
+        </section>
+
+        <aside class="leaderboard-panel">
+          <div class="leaderboard-header">
+            <h2>Leaderboard</h2>
+            <button id="refreshLeaderboard" class="refresh-button" title="Refresh leaderboard">↻</button>
+          </div>
+          <ul id="leaderboard" class="leaderboard"></ul>
+          <div class="legend">
+            <p><strong>Sabotage Penalty</strong> shows the points deducted by sneaky rivals.</p>
+            <p>Adjusted score breaks all ties before the nightly reset at 8 PM.</p>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="app-footer">
+        <p>
+          Built for family bragging rights. Share the link, set a reminder, and see who owns the crown at 8 PM sharp.
+        </p>
+      </footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
