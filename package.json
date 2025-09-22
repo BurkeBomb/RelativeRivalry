@@ -1,0 +1,26 @@
+diff --git a//dev/null b/package.json
+index 0000000000000000000000000000000000000000..5d688c4cb5e3f88940e3678c6d6a8f4c6f13d45f 100644
+--- a//dev/null
++++ b/package.json
+@@ -0,0 +1,21 @@
++{
++  "name": "relativerivalry",
++  "version": "1.0.0",
++  "description": "Relative Rivalry daily family quiz app",
++  "main": "server.js",
++  "scripts": {
++    "start": "node server.js"
++  },
++  "keywords": [
++    "quiz",
++    "family",
++    "game"
++  ],
++  "author": "",
++  "license": "ISC",
++  "type": "commonjs",
++  "dependencies": {
++    "cors": "^2.8.5",
++    "express": "^5.1.0"
++  }
++}
